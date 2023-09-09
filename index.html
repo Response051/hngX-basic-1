@@ -4,27 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" type="text/css" />
-    <script src="index.js"></script>
+
     <title>Facecard-HNGx</title>
   </head>
   <body>
     <section>
       <div>
-        <img data-testid="slackDisplayImage" src="./image/sopuruchi1.jpg" />
+        <img
+          data-testid="slackDisplayImage"
+          alt="RESPONSE"
+          src="./image/sopuruchi1.jpg"
+        />
       </div>
       <div>
-        <h2 data-testid="slackUserName">RESPONSE</h2>
-        <h2 data-testid="myTrack">Frontend</h2>
-      </div>
-      <div data-testid="">
-        <p data-testid="">TIME(UTC)</p>
-        <p data-testid="">DATE</p>
+        <h2 data-testid="slackUserName">Slack-Name: RESPONSE</h2>
+        <h2 data-testid="myTrack">Track: Frontend</h2>
       </div>
       <div>
-        <p data-testid="">
+        <span>
+          UTCTimeInMillsecconds :
+          <p id="currentUTC" class="UTC" data-testid="currentUTCTime"></p>
+        </span>
+        <span
+          ><p id="currentDay" class="day" data-testid="currentDayOfTheWeek"></p
+        ></span>
+      </div>
+      <div>
+        <p data-testid="githubURL" class="github">
           <a href="https://github.com/Response051/hngX-basic-1">GitHub-URL</a>
         </p>
       </div>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>
