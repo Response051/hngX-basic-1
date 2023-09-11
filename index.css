@@ -64,7 +64,12 @@ a {
   color: aliceblue;
   letter-spacing: 5px;
   text-decoration: none;
+  padding: 0.5rem;
+}
+a:hover {
+  border: 2px solid #dfa866;
+  border-radius: 5%;
 }
 .Socials {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
