@@ -57,12 +57,12 @@ img {
   font-size: x-large;
   font-weight: bolder;
   color: aliceblue;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
+  padding-left: 5%;
 }
 .icon {
   margin-top: 1rem;
   display: flex;
-  justify-content: space-evenly;
 }
 .icon > i {
   color: #8ccf27;
